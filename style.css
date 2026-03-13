@@ -1,0 +1,42 @@
+:root {
+  color-scheme: dark;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(#0f172a, #1e293b);
+  color: #f8fafc;
+  touch-action: none;
+}
+
+.app {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+.hud {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+#game {
+  width: 100%;
+  border: 2px solid #334155;
+  background: linear-gradient(#7dd3fc, #bfdbfe 62%, #84cc16 62%, #4d7c0f);
+  border-radius: 10px;
+}
+
+.hint {
+  margin-top: 8px;
+  opacity: 0.9;
+}

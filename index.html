@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Chef Catapult - Milestone 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Chef Catapult Prototype</h1>
+      <div class="hud">
+        <span id="score">Score: 0</span>
+        <span id="projectiles">Projectiles: 3</span>
+        <span id="status">Status: Aim and fling!</span>
+      </div>
+      <canvas id="game" width="960" height="540" aria-label="Game area"></canvas>
+      <p class="hint">Drag the projectile, aim, and release. Defeat both enemies.</p>
+    </main>
+
+    <script type="module" src="src/game.js"></script>
+  </body>
+</html>
